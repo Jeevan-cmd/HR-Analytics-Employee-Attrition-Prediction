@@ -1,50 +1,56 @@
 # HR-Analytics-Employee-Attrition-Prediction
-Project: HR Analytics – Employee Attrition Prediction
+📌 Project: HR Analytics – Employee Attrition Prediction
 
-This project focuses on analyzing and predicting employee attrition using the IBM HR Analytics Employee Attrition & Performance dataset. The primary objective is to understand the key factors that contribute to employees leaving the organization and build predictive models that can help HR departments take proactive measures to improve retention.
+This project focuses on analyzing and predicting employee attrition using the IBM HR Analytics Employee Attrition & Performance dataset. The goal is to provide insights into which employees are most likely to leave the company and what factors drive attrition, helping HR teams make data-driven decisions for employee retention.
 
-Employee attrition is one of the biggest challenges faced by companies, as it leads to increased hiring costs, loss of knowledge, and lower employee morale. By leveraging data analytics and machine learning, organizations can identify at-risk employees and design strategies that encourage retention and improve workplace satisfaction.
+🔑 Key Features
 
-🔍 Problem Statement
+Data Cleaning & Preprocessing: Handled categorical encoding, feature scaling, and irrelevant column removal.
 
-The challenge is to predict whether an employee is likely to leave the company based on multiple factors such as age, salary, job role, work-life balance, distance from home, overtime, and more. In addition, the project aims to identify the most significant features that drive attrition, enabling HR managers to take corrective actions.
+Exploratory Data Analysis (EDA):
 
-🛠️ Approach
+Attrition distribution (Attrition vs. Non-Attrition).
 
-Data Cleaning & Preprocessing
+Department-wise attrition trends.
 
-Removed irrelevant columns such as EmployeeNumber, Over18, and StandardHours.
+Key patterns from categorical & numerical features.
 
-Encoded categorical variables using Label Encoding.
+Machine Learning Models:
 
-Scaled numerical features using StandardScaler.
+Logistic Regression – Identified top positive/negative drivers of attrition.
 
-Exploratory Data Analysis (EDA)
+Random Forest Classifier – Extracted feature importance for attrition prediction.
 
-Visualized attrition counts to understand imbalance in the dataset.
+Model Evaluation: Accuracy, confusion matrix, and classification report.
 
-Analyzed attrition across departments, job roles, and other factors.
+Visualizations: Bar charts and feature importance plots for better interpretability.
 
-Highlighted patterns such as higher attrition among employees doing overtime.
+📊 Dataset
 
-Modeling
+Source: IBM HR Analytics Attrition Dataset
 
-Logistic Regression: Interpretable model used to identify key positive and negative drivers of attrition.
+Download here
 
-Random Forest Classifier: Robust ensemble model used to extract feature importance and improve prediction accuracy.
+Contains employee details such as age, job role, department, salary, work-life balance, and attrition status.
 
-Model Evaluation
+🚀 Tech Stack
 
-Used metrics such as accuracy, confusion matrix, and classification report.
+Python (pandas, numpy, matplotlib, seaborn, scikit-learn)
 
-Compared performance of Logistic Regression and Random Forest.
+Machine Learning Models: Logistic Regression, Random Forest
 
-🎯 Outcomes & Insights
+📈 Results & Insights
 
-Logistic Regression revealed top drivers such as Overtime, Job Role, Age, and DistanceFromHome.
+Logistic Regression identified key drivers of attrition (e.g., Job Role, Overtime, Age).
 
-Random Forest emphasized Monthly Income, Job Level, and Work-Life Balance as significant contributors.
+Random Forest highlighted top factors such as Monthly Income, Job Level, and Work-Life Balance.
 
-The models achieved an accuracy of around 78–80%, making them useful for real-world HR decision-making.
+Built predictive models with ~80% accuracy (approx., may vary by training split).
 
-This project demonstrates how data-driven HR analytics can play a vital role in reducing employee turnover and building a healthier workplace.
+🏷️ Use Cases
+
+Helps HR departments predict which employees are at risk of leaving.
+
+Provides insights for improving retention strategies.
+
+Can be extended into a full-fledged HR analytics dashboard.
